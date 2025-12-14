@@ -1,0 +1,881 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro Max",
+      "description": "The latest Apple smartphone with advanced camera and exceptional performance. 6.7-inch Super Retina XDR display, A17 Pro chip, and long-lasting battery.",
+      "price": 1299.99,
+      "images": [
+        "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=500",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "user": "John Doe",
+          "rating": 5,
+          "comment": "Excellent phone, very satisfied with the purchase!",
+          "date": "2025-01-15"
+        },
+        {
+          "id": 2,
+          "user": "Jane Smith",
+          "rating": 4,
+          "comment": "Very good device, impressive battery life.",
+          "date": "2025-01-10"
+        },
+        {
+          "id": 3,
+          "user": "Bob Wilson",
+          "rating": 5,
+          "comment": "The camera is incredible, I recommend it!",
+          "date": "2025-01-08"
+        }
+      ],
+      "averageRating": 4.7,
+      "quantity": 25,
+      "category": "Smartphones"
+    },
+    {
+      "id": 2,
+      "name": "MacBook Air M3",
+      "description": "Ultra-thin laptop with M3 chip. 13-inch Liquid Retina display, 18-hour battery life, and exceptional performance for work and entertainment.",
+      "price": 1199.99,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500"
+      ],
+      "comments": [
+        {
+          "id": 4,
+          "user": "Alice Brown",
+          "rating": 5,
+          "comment": "Incredible performance and beautiful design!",
+          "date": "2025-01-12"
+        },
+        {
+          "id": 5,
+          "user": "Charlie Davis",
+          "rating": 4,
+          "comment": "Great for work, but a bit pricey.",
+          "date": "2025-01-09"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 18,
+      "category": "Laptops"
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy Watch 6",
+      "description": "Advanced smartwatch with health monitoring, GPS, and long battery life. Perfect companion for fitness enthusiasts and professionals.",
+      "price": 399.99,
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+        "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=500"
+      ],
+      "comments": [
+        {
+          "id": 6,
+          "user": "Eva Martinez",
+          "rating": 5,
+          "comment": "Perfect for tracking workouts and notifications!",
+          "date": "2025-01-14"
+        },
+        {
+          "id": 7,
+          "user": "David Lee",
+          "rating": 4,
+          "comment": "Good battery life, but interface could be better.",
+          "date": "2025-01-11"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 42,
+      "category": "Wearables"
+    },
+    {
+      "id": 4,
+      "name": "Sony WH-1000XM5 Headphones",
+      "description": "Industry-leading noise canceling wireless headphones with exceptional sound quality and 30-hour battery life.",
+      "price": 349.99,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500"
+      ],
+      "comments": [
+        {
+          "id": 8,
+          "user": "Sophie Turner",
+          "rating": 5,
+          "comment": "Best noise canceling I've ever experienced!",
+          "date": "2025-01-13"
+        },
+        {
+          "id": 9,
+          "user": "Mike Johnson",
+          "rating": 5,
+          "comment": "Crystal clear sound quality.",
+          "date": "2025-01-10"
+        }
+      ],
+      "averageRating": 5.0,
+      "quantity": 33,
+      "category": "Audio"
+    },
+    {
+      "id": 5,
+      "name": "DJI Mini 3 Pro Drone",
+      "description": "Compact and powerful drone with 4K camera, 34-minute flight time, and intelligent flight modes for aerial photography.",
+      "price": 759.99,
+      "images": [
+        "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500"
+      ],
+      "comments": [
+        {
+          "id": 10,
+          "user": "Ryan Park",
+          "rating": 4,
+          "comment": "Amazing video quality, easy to fly!",
+          "date": "2025-01-12"
+        },
+        {
+          "id": 11,
+          "user": "Lisa Wang",
+          "rating": 5,
+          "comment": "Perfect for travel photography.",
+          "date": "2025-01-08"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 12,
+      "category": "Drones"
+    },
+    {
+      "id": 6,
+      "name": "Levi's 501 Original Jeans",
+      "description": "Classic straight fit jeans made from premium denim. Comfortable, durable, and timeless style that never goes out of fashion.",
+      "price": 89.99,
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+        "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=500"
+      ],
+      "comments": [
+        {
+          "id": 12,
+          "user": "Tom Anderson",
+          "rating": 4,
+          "comment": "Perfect fit and great quality!",
+          "date": "2025-01-15"
+        },
+        {
+          "id": 13,
+          "user": "Emma Wilson",
+          "rating": 5,
+          "comment": "These jeans are so comfortable and stylish.",
+          "date": "2025-01-11"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 67,
+      "category": "Clothing"
+    },
+    {
+      "id": 7,
+      "name": "Nike Air Max 270",
+      "description": "Revolutionary sneakers with Air Max cushioning and modern design. Perfect for running, training, or casual wear.",
+      "price": 149.99,
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500"
+      ],
+      "comments": [
+        {
+          "id": 14,
+          "user": "Chris Taylor",
+          "rating": 5,
+          "comment": "Super comfortable and stylish!",
+          "date": "2025-01-14"
+        },
+        {
+          "id": 15,
+          "user": "Sarah Brown",
+          "rating": 4,
+          "comment": "Great for running, good cushioning.",
+          "date": "2025-01-09"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 89,
+      "category": "Footwear"
+    },
+    {
+      "id": 8,
+      "name": "Breville Barista Express",
+      "description": "Professional espresso machine for home use. Integrated grinder, steam wand, and pressure gauge for perfect coffee every time.",
+      "price": 699.99,
+      "images": [
+        "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=500",
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500"
+      ],
+      "comments": [
+        {
+          "id": 16,
+          "user": "James Miller",
+          "rating": 5,
+          "comment": "Makes amazing espresso at home!",
+          "date": "2025-01-13"
+        },
+        {
+          "id": 17,
+          "user": "Anna Garcia",
+          "rating": 4,
+          "comment": "Easy to use, great results.",
+          "date": "2025-01-10"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 23,
+      "category": "Kitchen Appliances"
+    },
+    {
+      "id": 9,
+      "name": "Yeti Rambler 20 oz Tumbler",
+      "description": "Insulated stainless steel tumbler that keeps drinks cold for 24 hours or hot for 12 hours. Durable and perfect for outdoor activities.",
+      "price": 39.99,
+      "images": [
+        "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500"
+      ],
+      "comments": [
+        {
+          "id": 18,
+          "user": "Mark Thompson",
+          "rating": 5,
+          "comment": "Keeps drinks cold for hours!",
+          "date": "2025-01-12"
+        },
+        {
+          "id": 19,
+          "user": "Rachel Kim",
+          "rating": 4,
+          "comment": "Great quality, no condensation.",
+          "date": "2025-01-08"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 156,
+      "category": "Outdoor Gear"
+    },
+    {
+      "id": 10,
+      "name": "Canon EOS R6 Mark II",
+      "description": "Professional mirrorless camera with 24.2MP full-frame sensor, 4K video, and exceptional autofocus performance.",
+      "price": 2499.99,
+      "images": [
+        "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=500",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+      ],
+      "comments": [
+        {
+          "id": 20,
+          "user": "Kevin White",
+          "rating": 5,
+          "comment": "Outstanding image quality and autofocus!",
+          "date": "2025-01-11"
+        },
+        {
+          "id": 21,
+          "user": "Helen Davis",
+          "rating": 5,
+          "comment": "Perfect for professional photography.",
+          "date": "2025-01-07"
+        }
+      ],
+      "averageRating": 5.0,
+      "quantity": 8,
+      "category": "Cameras"
+    },
+    {
+      "id": 11,
+      "name": "Adidas Ultraboost 23",
+      "description": "High-performance running shoes with Boost cushioning technology and Continental rubber outsole for superior grip.",
+      "price": 189.99,
+      "images": [
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500",
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
+      ],
+      "comments": [
+        {
+          "id": 22,
+          "user": "Daniel Rodriguez",
+          "rating": 4,
+          "comment": "Excellent cushioning for long runs!",
+          "date": "2025-01-10"
+        },
+        {
+          "id": 23,
+          "user": "Michelle Chen",
+          "rating": 5,
+          "comment": "Comfortable and stylish.",
+          "date": "2025-01-06"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 45,
+      "category": "Footwear"
+    },
+    {
+      "id": 12,
+      "name": "Instant Pot Duo 7-in-1",
+      "description": "Multi-cooker that combines the functions of a pressure cooker, slow cooker, rice cooker, steamer, sauté pan, yogurt maker, and warmer.",
+      "price": 79.99,
+      "images": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500",
+        "https://images.unsplash.com/photo-1556909020-f6e7ad7d3136?w=500"
+      ],
+      "comments": [
+        {
+          "id": 24,
+          "user": "Jennifer Lopez",
+          "rating": 5,
+          "comment": "Changed the way I cook, so versatile!",
+          "date": "2025-01-09"
+        },
+        {
+          "id": 25,
+          "user": "Robert King",
+          "rating": 4,
+          "comment": "Easy to use and saves time.",
+          "date": "2025-01-05"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 78,
+      "category": "Kitchen Appliances"
+    },
+    {
+      "id": 13,
+      "name": "Patagonia Better Sweater",
+      "description": "High-quality fleece sweater made from recycled polyester. Warm, comfortable, and environmentally friendly.",
+      "price": 139.99,
+      "images": [
+        "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
+        "https://images.unsplash.com/photo-1445205170230-053b83016050?w=500"
+      ],
+      "comments": [
+        {
+          "id": 26,
+          "user": "Amanda Scott",
+          "rating": 5,
+          "comment": "So soft and warm, perfect for fall!",
+          "date": "2025-01-08"
+        },
+        {
+          "id": 27,
+          "user": "Brian Adams",
+          "rating": 4,
+          "comment": "Great quality and sustainable.",
+          "date": "2025-01-04"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 34,
+      "category": "Clothing"
+    },
+    {
+      "id": 14,
+      "name": "Apple AirPods Pro (2nd Gen)",
+      "description": "Wireless earbuds with active noise cancellation, adaptive transparency, and spatial audio. Sweat and water resistant.",
+      "price": 249.99,
+      "images": [
+        "https://images.unsplash.com/photo-1606220945770-b5b6c2c9bfd1?w=500",
+        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=500"
+      ],
+      "comments": [
+        {
+          "id": 28,
+          "user": "Steven Wright",
+          "rating": 5,
+          "comment": "Best earbuds I've ever owned!",
+          "date": "2025-01-07"
+        },
+        {
+          "id": 29,
+          "user": "Laura Martinez",
+          "rating": 4,
+          "comment": "Great noise cancellation.",
+          "date": "2025-01-03"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 91,
+      "category": "Audio"
+    },
+    {
+      "id": 15,
+      "name": "Peloton Bike+",
+      "description": "Interactive fitness bike with 22-inch HD touchscreen, live and on-demand classes, and integrated speakers.",
+      "price": 2495.99,
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+      ],
+      "comments": [
+        {
+          "id": 30,
+          "user": "Nancy Clark",
+          "rating": 5,
+          "comment": "Amazing workouts from home!",
+          "date": "2025-01-06"
+        },
+        {
+          "id": 31,
+          "user": "George Harris",
+          "rating": 5,
+          "comment": "Great instructors and variety of classes.",
+          "date": "2025-01-02"
+        }
+      ],
+      "averageRating": 5.0,
+      "quantity": 15,
+      "category": "Fitness Equipment"
+    },
+    {
+      "id": 16,
+      "name": "Nintendo Switch OLED",
+      "description": "Handheld gaming console with 7-inch OLED screen, enhanced audio, and 64GB internal storage. Play anywhere, anytime.",
+      "price": 349.99,
+      "images": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500"
+      ],
+      "comments": [
+        {
+          "id": 32,
+          "user": "Oliver Jones",
+          "rating": 4,
+          "comment": "Perfect for gaming on the go!",
+          "date": "2025-01-05"
+        },
+        {
+          "id": 33,
+          "user": "Victoria Patel",
+          "rating": 5,
+          "comment": "Amazing screen quality and battery life.",
+          "date": "2025-01-01"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 67,
+      "category": "Gaming"
+    },
+    {
+      "id": 17,
+      "name": "Dyson V15 Detect",
+      "description": "Cordless vacuum cleaner with laser dust detection and powerful suction. Perfect for deep cleaning carpets and hard floors.",
+      "price": 749.99,
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500"
+      ],
+      "comments": [
+        {
+          "id": 34,
+          "user": "Margaret Taylor",
+          "rating": 5,
+          "comment": "Powerful and easy to use!",
+          "date": "2025-01-04"
+        },
+        {
+          "id": 35,
+          "user": "William Evans",
+          "rating": 4,
+          "comment": "Great suction power on all surfaces.",
+          "date": "2024-12-31"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 28,
+      "category": "Home Appliances"
+    },
+    {
+      "id": 18,
+      "name": "Ray-Ban Aviator Sunglasses",
+      "description": "Classic aviator sunglasses with UV protection and polarized lenses. Timeless style and superior protection.",
+      "price": 169.99,
+      "images": [
+        "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500",
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500"
+      ],
+      "comments": [
+        {
+          "id": 36,
+          "user": "Jessica Moore",
+          "rating": 5,
+          "comment": "Perfect fit and great UV protection!",
+          "date": "2025-01-03"
+        },
+        {
+          "id": 37,
+          "user": "Patrick Allen",
+          "rating": 4,
+          "comment": "Classic style that never goes out of fashion.",
+          "date": "2024-12-30"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 89,
+      "category": "Accessories"
+    },
+    {
+      "id": 19,
+      "name": "Stanley Classic Vacuum Bottle",
+      "description": "Legendary stainless steel vacuum bottle that keeps drinks hot for 24 hours or cold for 24 hours. Double-wall insulation.",
+      "price": 45.99,
+      "images": [
+        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=500",
+        "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=500"
+      ],
+      "comments": [
+        {
+          "id": 38,
+          "user": "Donna Nelson",
+          "rating": 5,
+          "comment": "Keeps coffee hot all day long!",
+          "date": "2025-01-02"
+        },
+        {
+          "id": 39,
+          "user": "Frank Robinson",
+          "rating": 4,
+          "comment": "Durable and keeps temperature perfectly.",
+          "date": "2024-12-29"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 134,
+      "category": "Outdoor Gear"
+    },
+    {
+      "id": 20,
+      "name": "GoPro HERO11 Silver",
+      "description": "Action camera with 5.3K video recording, waterproof design, and image stabilization. Perfect for adventure sports.",
+      "price": 299.99,
+      "images": [
+        "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=500",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+      ],
+      "comments": [
+        {
+          "id": 40,
+          "user": "Carlos Ramirez",
+          "rating": 4,
+          "comment": "Amazing video quality for action shots!",
+          "date": "2025-01-01"
+        },
+        {
+          "id": 41,
+          "user": "Diana Flores",
+          "rating": 5,
+          "comment": "Waterproof and durable, perfect for surfing.",
+          "date": "2024-12-28"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 56,
+      "category": "Cameras"
+    },
+    {
+      "id": 21,
+      "name": "Cuisinart Chef's Knife",
+      "description": "Professional 8-inch chef's knife with high-carbon stainless steel blade and ergonomic handle. Perfect for precision cutting.",
+      "price": 89.99,
+      "images": [
+        "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=500",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500"
+      ],
+      "comments": [
+        {
+          "id": 42,
+          "user": "Edward Carter",
+          "rating": 5,
+          "comment": "Sharp and comfortable to use!",
+          "date": "2024-12-31"
+        },
+        {
+          "id": 43,
+          "user": "Grace Murphy",
+          "rating": 4,
+          "comment": "Great balance and sharpness.",
+          "date": "2024-12-27"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 72,
+      "category": "Kitchen Tools"
+    },
+    {
+      "id": 22,
+      "name": "Fitbit Charge 6",
+      "description": "Advanced fitness tracker with heart rate monitoring, GPS, and sleep tracking. Water resistant and long battery life.",
+      "price": 149.99,
+      "images": [
+        "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=500",
+        "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=500"
+      ],
+      "comments": [
+        {
+          "id": 44,
+          "user": "Henry Walker",
+          "rating": 4,
+          "comment": "Great for tracking workouts and sleep!",
+          "date": "2024-12-30"
+        },
+        {
+          "id": 45,
+          "user": "Isabel Turner",
+          "rating": 5,
+          "comment": "Accurate heart rate and good battery life.",
+          "date": "2024-12-26"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 98,
+      "category": "Wearables"
+    },
+    {
+      "id": 23,
+      "name": "Le Creuset Dutch Oven",
+      "description": "Cast iron enamel-coated Dutch oven in cherry red. Perfect for slow cooking, braising, and baking. 5.5 quart capacity.",
+      "price": 329.99,
+      "images": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500",
+        "https://images.unsplash.com/photo-1556909020-f6e7ad7d3136?w=500"
+      ],
+      "comments": [
+        {
+          "id": 46,
+          "user": "Jack Young",
+          "rating": 5,
+          "comment": "Even heat distribution, beautiful color!",
+          "date": "2024-12-29"
+        },
+        {
+          "id": 47,
+          "user": "Karen Hall",
+          "rating": 4,
+          "comment": "Heavy but worth it for the quality.",
+          "date": "2024-12-25"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 41,
+      "category": "Cookware"
+    },
+    {
+      "id": 24,
+      "name": "Oculus Quest 3",
+      "description": "Standalone VR headset with 128GB storage, wireless freedom, and thousands of games and experiences. Mixed reality ready.",
+      "price": 499.99,
+      "images": [
+        "https://images.unsplash.com/photo-1592478411213-6153e4ebc696?w=500",
+        "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=500"
+      ],
+      "comments": [
+        {
+          "id": 48,
+          "user": "Liam Baker",
+          "rating": 5,
+          "comment": "Incredible VR experience, no wires needed!",
+          "date": "2024-12-28"
+        },
+        {
+          "id": 49,
+          "user": "Mia Rivera",
+          "rating": 4,
+          "comment": "Great for gaming and fitness apps.",
+          "date": "2024-12-24"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 23,
+      "category": "Gaming"
+    },
+    {
+      "id": 25,
+      "name": "Yeti Cooler - Tundra 45",
+      "description": "Hard-sided cooler that keeps ice for 5 days. Rotomolded construction, bear-proof design, and perfect for camping and boating.",
+      "price": 349.99,
+      "images": [
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5e?w=500",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5e?w=500"
+      ],
+      "comments": [
+        {
+          "id": 50,
+          "user": "Noah Mitchell",
+          "rating": 5,
+          "comment": "Ice lasts forever, super durable!",
+          "date": "2024-12-27"
+        },
+        {
+          "id": 51,
+          "user": "Olivia Cooper",
+          "rating": 4,
+          "comment": "Worth every penny for camping trips.",
+          "date": "2024-12-23"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 67,
+      "category": "Outdoor Gear"
+    },
+    {
+      "id": 26,
+      "name": "Bose QuietComfort Earbuds II",
+      "description": "True wireless earbuds with world-class noise cancellation and 6-hour battery life. Comfortable fit and great sound quality.",
+      "price": 279.99,
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500"
+      ],
+      "comments": [
+        {
+          "id": 52,
+          "user": "Parker Reed",
+          "rating": 5,
+          "comment": "Best noise canceling earbuds on the market!",
+          "date": "2024-12-26"
+        },
+        {
+          "id": 53,
+          "user": "Quinn Sanders",
+          "rating": 4,
+          "comment": "Comfortable and great battery life.",
+          "date": "2024-12-22"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 45,
+      "category": "Audio"
+    },
+    {
+      "id": 27,
+      "name": "KitchenAid Stand Mixer",
+      "description": "5-quart tilt-head stand mixer with 10 speeds and multiple attachments. Perfect for baking enthusiasts and home cooks.",
+      "price": 379.99,
+      "images": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500",
+        "https://images.unsplash.com/photo-1556909020-f6e7ad7d3136?w=500"
+      ],
+      "comments": [
+        {
+          "id": 54,
+          "user": "Riley Bennett",
+          "rating": 5,
+          "comment": "Game changer for baking, so powerful!",
+          "date": "2024-12-25"
+        },
+        {
+          "id": 55,
+          "user": "Sophie Coleman",
+          "rating": 4,
+          "comment": "Beautiful design and reliable performance.",
+          "date": "2024-12-21"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 34,
+      "category": "Kitchen Appliances"
+    },
+    {
+      "id": 28,
+      "name": "North Face Backpack",
+      "description": "Durable hiking backpack with 30L capacity, multiple compartments, and weather-resistant materials. Perfect for day hikes and travel.",
+      "price": 89.99,
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        "https://images.unsplash.com/photo-1622260613188-1d4d8e890f3d?w=500"
+      ],
+      "comments": [
+        {
+          "id": 56,
+          "user": "Tyler Foster",
+          "rating": 4,
+          "comment": "Perfect size for day hikes, very comfortable!",
+          "date": "2024-12-24"
+        },
+        {
+          "id": 57,
+          "user": "Uma Griffin",
+          "rating": 5,
+          "comment": "Great organization and durable construction.",
+          "date": "2024-12-20"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 89,
+      "category": "Outdoor Gear"
+    },
+    {
+      "id": 29,
+      "name": "Microsoft Surface Pro 9",
+      "description": "2-in-1 laptop with 13-inch PixelSense display, Intel 12th Gen processors, and all-day battery life. Perfect for work and creativity.",
+      "price": 999.99,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500",
+        "https://images.unsplash.com/photo-1587614295999-6c1f4c628e2d?w=500"
+      ],
+      "comments": [
+        {
+          "id": 58,
+          "user": "Victor Hayes",
+          "rating": 5,
+          "comment": "Versatile and powerful, great tablet mode!",
+          "date": "2024-12-23"
+        },
+        {
+          "id": 59,
+          "user": "Wendy Ingram",
+          "rating": 4,
+          "comment": "Excellent for note-taking and light work.",
+          "date": "2024-12-19"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 56,
+      "category": "Tablets"
+    },
+    {
+      "id": 30,
+      "name": "Ring Video Doorbell Pro 2",
+      "description": "Smart doorbell with 1080p HD video, motion detection, and two-way audio. Connects to your smartphone for remote monitoring.",
+      "price": 249.99,
+      "images": [
+        "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500"
+      ],
+      "comments": [
+        {
+          "id": 60,
+          "user": "Xander Jenkins",
+          "rating": 4,
+          "comment": "Great video quality and easy installation!",
+          "date": "2024-12-22"
+        },
+        {
+          "id": 61,
+          "user": "Yara Kelly",
+          "rating": 5,
+          "comment": "Peace of mind knowing who's at the door.",
+          "date": "2024-12-18"
+        }
+      ],
+      "averageRating": 4.5,
+      "quantity": 78,
+      "category": "Smart Home"
+    }
+  ]
+}
