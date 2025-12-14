@@ -5,21 +5,34 @@ const AuthContext = createContext();
 const userAuth = {
   email: "test@gmail.com",
   name: "test1",
-  password: 123,
+  password: "123",
 };
 
 function AuthProvider({ children }) {
   const [isAuth, setIsAuth] = useState(false);
 
   function handleLogin(user) {
-    if (!user) return;
-    if (user.email === userAuth.email && user.password === userAuth.password) {
+    if (!user) {
+      throw new Error("Invalid credentials");
+    }
+
+    // Convert password to string for comparison
+    const passwordString = String(user.password);
+
+    if (user.email === userAuth.email && passwordString === userAuth.password) {
       setIsAuth(true);
+      return true;
+    } else {
+      throw new Error("Invalid email or password");
     }
   }
 
+  function logout() {
+    setIsAuth(false);
+  }
+
   return (
-    <AuthContext.Provider value={{ isAuth, handleLogin }}>
+    <AuthContext.Provider value={{ isAuth, handleLogin, logout }}>
       {children}
     </AuthContext.Provider>
   );
