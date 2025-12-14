@@ -129,8 +129,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **EMIR - E1**
 
-- GitHub: [@your-github](https://github.com/your-github)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-linkedin)
+
 
 ## Acknowledgments
 
